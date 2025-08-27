@@ -1,7 +1,8 @@
-## ML Model Serving with FastAPI
+# ML Model Serving with FastAPI
 
 A lightweight backend API for deploying and serving machine learning models. Built on FastAPI with Dockerized infrastructure and uv for dependency management.
 
+<br>
 
 <p align="center">
   <a href="https://www.python.org/">
@@ -24,7 +25,7 @@ A lightweight backend API for deploying and serving machine learning models. Bui
 
 ---
 
-### 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 fastapi-model-serving-api/
@@ -50,7 +51,9 @@ fastapi-model-serving-api/
 └─ .venv
 ```
 
-### 🛠️ Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 - **Python 3.13.1**
 - **FastAPI** - REST API and Model Serving
@@ -59,12 +62,13 @@ fastapi-model-serving-api/
 - **Docker** - Containerized deployment
 - **Pickle** - Model serialization
 
+---
 
-### 📦 Prerequisites
+## 📦 Prerequisites
 
-Depending on how you want to run the API -
+Depending on how you want to run -
 
-**Option 1: Running Locally**
+**Option 1: Running Locally without Docker**
 
 - Python 3.13
 - [uv](https://uv.sh/) package manager
@@ -78,7 +82,9 @@ Depending on how you want to run the API -
 
 > No need to install Python, uv, or packages locally. Docker contains everything.
 
-### 🚀 Quick Start 
+---
+
+## 🚀 Quick Start Guide
 
 #### 1. Clone the repository
 
@@ -170,6 +176,8 @@ Request & Response schema: See `src/schemas.py`
 python src/train.py
 ```
 
-### License
+---
+
+## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
