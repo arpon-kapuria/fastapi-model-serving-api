@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-model-serving-api"
+version = "0.1.0"
+description = "A lightweight backend API for deploying and serving machine learning models. Built on FastAPI, with Dockerized infrastructure and uv for modern dependency management."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.116.1",
+    "ipykernel>=6.30.1",
+    "numpy>=2.3.2",
+    "pandas>=2.3.2",
+    "scikit-learn>=1.7.1",
+    "uvicorn>=0.35.0",
+]
+
+[dependency-groups]
+dev = [
+    "requests>=2.32.5",
+]
